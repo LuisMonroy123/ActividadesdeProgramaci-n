@@ -162,7 +162,7 @@ public class calculo_masa extends javax.swing.JFrame {
         }else if(imc>=18.5 && imc<24.9){
         estatus.setText("Peso saludable");
         }else if(imc>=25 && imc <29.9){
-        estatus.setText("Estas cerdo");
+        estatus.setText("Sobrepeso");
         }else if(imc>30){
         estatus.setText("Obesidad");
         }
